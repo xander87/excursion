@@ -1,11 +1,28 @@
-.html {background-color: black;
-      text-align: center;}
+.html {display: block;}
 
- #header {font-size: 50px;
+body  {background-color: black;
+      text-align: center;
+      font-family: Verdana,sans-serif;
+      color: white;}
+
+h1 {font-size: 50px;
           font-weight: normal;
           font-family: Verdana;
           text-align: center;
           color: White;}
 
-#link     {color: Aquamarine;
-          font-size: 16px;}
+.cta      {color: Aquamarine;
+          font-size: 16px;
+          text-decoration: underline;
+          cursor: auto;}
+
+.footer {text-align: right;
+          color: gray;}
+
+h2  {font-family: Verdana;
+    font-weight: 300;
+    font-size: 42px;}
+
+p {font-family: Verdana;
+  font-size: 21px;
+  color: gray; }
